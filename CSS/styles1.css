@@ -1,6 +1,6 @@
 body {
   background-color: rgb(86,189,124);
-  font-family: 'JuliusSansOne';
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 5px;
   font-color: rgb(0, 0 ,0);
 }
@@ -15,6 +15,7 @@ h2 {
 
 .jumbotron{
   margin: 20px;
+  background: rgb(211, 242, 222);
 }
 
 .flex {
