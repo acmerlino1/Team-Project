@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(14,238,144);
+  background-color: rgb(86,189,124);
   font-family: 'JuliusSansOne';
-  font-size: 12px;
-  font-color: rgb(255, 255, 255);
+  font-size: 5px;
+  font-color: rgb(0, 0 ,0);
 }
 
 h1 {
@@ -13,17 +13,32 @@ h2 {
   text-align: center;
 }
 
+.jumbotron{
+  margin: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding: 10px;
+}
 .image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
   position: relative;
   width: 100%;
+  height: 100%;
   padding: 50px;
   margin: 0px;
+  flex-wrap: nowrap;
 }
 
 .image {
   display:flow-root;
-  width: 60%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: fill;
   flex: 50%
   padding: 5px;
@@ -46,7 +61,7 @@ h2 {
 }
 .text {
   color: black;
-  font-size: 20px;
+  font-size: 12px;
   position: absolute;
   top: 50%;
   left: 50%;
