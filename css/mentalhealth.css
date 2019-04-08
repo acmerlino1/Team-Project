@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background: rgb(179, 204, 255);
+  background: #4a8fef;
   margin: 50px;
   font-family: 'Bad Script', cursive;
 }
@@ -43,6 +43,10 @@ h2{
 
 .sleeping-tips{
   display: flex;
+}
+
+.jumbotron{
+  background: rgb(179, 204, 255);
 }
 
 .image-container {
