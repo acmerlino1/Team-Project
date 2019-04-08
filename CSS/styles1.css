@@ -1,4 +1,82 @@
 body {
-  color: rgb(246, 97, 74);
-  font-family: helvetica;
-  font-size: 15px;
+  background-color: rgb(86,189,124);
+  font-family: 'JuliusSansOne';
+  font-size: 5px;
+  font-color: rgb(0, 0 ,0);
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.jumbotron{
+  margin: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  margin: 0px;
+  flex-wrap: nowrap;
+}
+
+.image {
+  display:flow-root;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  flex: 50%
+  padding: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #C6E1D3;
+}
+.image-container:hover .overlay{
+  opacity: 0.9;
+}
+.text {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+img {
+  width: 10vw;
+  height: 10vh;
+  align-items: center;
+p {
+  color: black;
+  width: 1000px;
+  height:500px;
+  text-align:left;
+}
