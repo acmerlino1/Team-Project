@@ -5,14 +5,14 @@ body {
   font-family: 'Bad Script', cursive;
 }
 
-h1 {
+.mental-health h1 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 100px;
 
 }
 
-h2{
+.mental-health h2{
   font-family: 'Bad Script', cursive;
   line-height: 50px;
   color: black;
