@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  background: #4a8fef;
+  margin: 50px;
+  font-family: 'Bad Script', cursive;
+}
+
+h1 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 100px;
+
+}
+
+h2{
+  font-family: 'Bad Script', cursive;
+  line-height: 50px;
+  color: black;
+}
+
+.general h3{
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+}
+
+.sleeping h3{
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+}
+
+.remember-ending {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.general-tips{
+  display: flex;
+}
+
+.sleeping-tips{
+  display: flex;
+}
+
+.jumbotron{
+  background: rgb(179, 204, 255);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  flex: 12.5%;
+  padding: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #e6eeff;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

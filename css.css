@@ -1,0 +1,21 @@
+
+
+body {
+  text-align: center;
+}
+
+#facts:hover {
+  font-size: 25px;
+  font-size-adjust: 20px;
+
+}
+
+#exerciseimage {
+  display: flex;
+  align-items: center;
+}
+
+#Types {
+  display: flex;
+  margin-left: 250px;
+}
