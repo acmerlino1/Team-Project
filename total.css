@@ -109,7 +109,7 @@ body {
 .image-container {
   position: relative;
   width: 100%;
-  padding: 0px;
+  padding: none;
   margin: 0px;
 }
 
