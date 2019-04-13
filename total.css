@@ -51,3 +51,155 @@ body {
   display: flex;
   margin-left: 250px;
 }
+
+
+
+.mental-health h1 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 100px;
+
+}
+
+.mental-health h2{
+  font-family: 'Bad Script', cursive;
+  line-height: 50px;
+  color: black;
+}
+
+.general h3{
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+}
+
+.sleeping h3{
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 50px;
+}
+
+.remember-ending {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.general-tips{
+  display: flex;
+}
+
+.sleeping-tips{
+  display: flex;
+}
+
+
+.image-container {
+  position: relative;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  flex: 12.5%;
+  padding: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #e6eeff;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  padding: 10px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  margin: 0px;
+  flex-wrap: nowrap;
+}
+
+
+.image {
+  display:flow-root;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  flex: 50%
+  padding: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #C6E1D3;
+}
+.image-container:hover .overlay{
+  opacity: 0.9;
+}
+
+.text {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
