@@ -14,7 +14,13 @@ body {
   position:absolute;
   top:250px;
   left:200px;
+  transition: transform .2s;
 }
+
+.b:hover {
+  transform: scale(1.2);
+}
+
 .c {
   position: absolute;
   top:120px;
@@ -24,7 +30,7 @@ body {
 }
 
 .c:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 
 }
 
@@ -32,6 +38,11 @@ body {
   position: absolute;
   top:220px;
   left:720px;
+  transition: transform .2s;
+}
+
+.d:hover {
+  transform: scale(1.2);
 }
 
 
