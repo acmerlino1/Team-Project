@@ -80,10 +80,13 @@ h2 {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 img {
   width: 10vw;
   height: 10vh;
   align-items: center;
+}
+
 p {
   color: black;
   width: 1000px;
