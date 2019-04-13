@@ -15,6 +15,11 @@ p, h2{
   font-family: 'Julius Sans One', sans-serif;
 }
 
+.homebutton {
+  display: block;
+  margin: 0 auto;
+}
+
 html {
   box-sizing: border-box;
 }
