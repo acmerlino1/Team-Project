@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 
 body {
   text-align: center;
@@ -12,37 +16,37 @@ body {
 
 .b {
   position:absolute;
-  top:250px;
-  left:200px;
-  transition: transform .2s;
+  top:50%;
+  left:20%;
+  transition: transform .1s;
 }
 
 .b:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .c {
   position: absolute;
-  top:120px;
-  left:300px;
-  transition: transform .2s;
+  top:30%;
+  left:30%;
+  transition: transform .1s;
 
 }
 
 .c:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 
 }
 
 .d {
   position: absolute;
-  top:220px;
-  left:720px;
-  transition: transform .2s;
+  top:40%;
+  left:70%;
+  transition: transform .1s;
 }
 
 .d:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 
@@ -60,7 +64,7 @@ body {
 
 #Types {
   display: flex;
-  margin-left: 250px;
+  margin-left: 150px;
 }
 
 

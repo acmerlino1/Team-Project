@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="total.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="script.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <title> Healthy Living </title>
 </head>
 
@@ -19,11 +20,13 @@
    <h1><strong> Welcome to your guide to healthy living!</strong></h1>
    <h2> Dedicated to giving you concise advice on how to lead a healthy and happy life! </h2>
    <br>
-   <div class="healthypark" style="position:relative;">
-    <img src="park.jpg" class="a">
-    <a href="#Diet">  <img src="basket.png" class="b" height="200px" width="200px"></a>
-    <a href="#Exercise"> <img src="running.png" class="c" height="400px" width="500px"></a>
-    <a href="#mental-health"> <img src="meditating.png" class="d" height="250px" width="100px"> </a>
+   <div class="interactive">
+   <img src="homepagebackground.png"  alt="interactivebackground" usemap="#parkmap" >
+   <map name="parkmap">
+     <area shape="rect" coords="80,80,152,346" alt="running" href="#Exercise">
+     <area shape="rect" coords="360,140,150,256" alt="meditiation" href="#mental-health">
+     <area shape="rect" coords="560,240,370,356" alt="meditiation" href="#Diet">
+  </map>
    </div>
 </div>
 <br>
@@ -41,8 +44,8 @@
    <div id="start" style="background:rgb(205, 92, 92) !important" class="jumbotron">
    <h1> Exercise  and healthy living </h1>
     <div class="buttons center">
-       <a href="#homepage"><img src="home.png" class="homebutton" height="80px" width="80px"></a>
-       <a href="./about-us.html"><img src="aboutus.png" class="aboutusbutton" height="80px" width="80px"></a>
+       <a href="#homepage"><i class="fas fa-home fa-7x"></i></a>
+       <a href="./about-us.html"><i class="fas fa-users fa-7x"></i></a>
      </div>
        <br>
        <h2> We have all heard quotes such as "Exercise is good for you" or "You need to exercise to be healthy".
@@ -58,18 +61,17 @@
    </div>
      <br>
    <div id="Types">
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 50rem;">
        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/07/05/11/running-10k.jpg?w968h681" class="card-img-top" alt="...">
          <div class="card-body">
            <h5 class="card-title">Running</h5>
            <p class="card-text">Running is a great way to stay fit. It is can be classified as a moderate to vigourous exercise depending on the speed.
                    It is an aerobic exercise that can improve heart and lung capacity as well as increase endurance. If you have never tried
                    running before, don't be shy to start. There are many programmes to help you get into running spirit such as Couch to 5K</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
-         </div>
+              </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 50rem;">
        <img src="https://cdn2.stylecraze.com/wp-content/uploads/2014/07/10-Effective-Yoga-Poses-To-Cure-Anxiety-14.jpg" class="card-img-top" alt="...">
          <div class="card-body">
            <h5 class="card-title">Yoga</h5>
@@ -77,18 +79,16 @@
                      physical strength. Yoga is known to increase muscle strength and flexibility. It can be done from the comfort of your own home or
                      outdoors. It is also known to reduce chronic pain such as arthiritis and strengthens the immune system. I would suggest
                      watching YouTube tutorials to get started.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
-         </div>
+              </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 50rem;">
         <img src="https://wirralleisure.co.uk/wp-content/uploads/2017/03/girl-frontcrawl.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Swimming</h5>
             <p class="card-text">Swimming is a fun activity that the whole family can take part in. It is a full body workout no matter how hard or far you choose to swim.
                        It is one of the most effective ways to burn off the calories compared to exercise on land. You also don't sweat.</p>
-           <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+            </div>
     </div>
    </div>
 </div>
@@ -102,8 +102,8 @@
           <h1>Mental Health</h1>
           <br>
           <div class="buttons center">
-             <a href="#homepage"><img src="home.png" class="homebutton" height="80px" width="80px"></a>
-             <a href="./about-us.html"><img src="aboutus.png" class="aboutusbutton" height="80px" width="80px"></a>
+             <a href="#homepage"><i class="fas fa-home fa-7x"></i></a>
+             <a href="./about-us.html"><i class="fas fa-users fa-7x"></i></a>
            </div>
           <h2>Looking after your mental health is just as important as looking after your physical health, but it can be easy to forget this. Take time for youself with these tips.</h2>
           <img src="./woman-meditating.png" alt="Person meditating" height="300">
@@ -220,7 +220,7 @@
       <br>
       <div style="background:rgb(179, 204, 255) !important" class="jumbotron">
           <div class="remember-ending">
-            <h2>Remeber, it's okay to ask for help!</h2>
+            <h2>Remember, it's okay to ask for help!</h2>
         </div>
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -254,8 +254,8 @@
   <div>
       <h1> Diet</h1>
       <div class="buttons center">
-         <a href="#homepage"><img src="home.png" class="homebutton" height="80px" width="80px"></a>
-         <a href="./about-us.html"><img src="aboutus.png" class="aboutusbutton" height="80px" width="80px"></a>
+         <a href="#homepage"><i class="fas fa-home fa-7x"></i></a>
+         <a href="./about-us.html"><i class="fas fa-users fa-7x"></i></a>
        </div>
       <h2> The most important factor in deciding if you are eating a healthy and nutritious diet is if you are getting the correct amounts of macro and micronutrients. </h2>
   </div>
