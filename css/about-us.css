@@ -15,6 +15,11 @@ p, h2{
   font-family: 'Julius Sans One', sans-serif;
 }
 
+.homebutton {
+  display: block;
+  margin: 0 auto;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -40,14 +45,9 @@ html {
   }
 }
 
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
 /* Some left and right padding inside the container */
 .container {
-  padding: 0 16px;
+  padding: 5px 16px;
   background: white;
 }
 

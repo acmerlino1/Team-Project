@@ -6,6 +6,7 @@ html {
 body {
   text-align: center;
   margin: 50px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .a {
@@ -77,15 +78,19 @@ h1 {
 }
 
 h2{
-  font-family: 'Bad Script', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   line-height: 50px;
-  color: black;
+  color: white;
 }
 
 .general h3{
   color: white;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 50px;
+}
+
+#selfcare{
+  color: black;
 }
 
 .sleeping h3{
@@ -180,7 +185,6 @@ h2 {
   margin: 0px;
   flex-wrap: nowrap;
 }
-
 
 .image {
   display:flow-root;
